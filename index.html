@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Abit Search</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<script src="libraries/jQuery.min.js"></script>
+	<script src="libraries/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="libraries/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="libraries/p5.min.js"></script>
+	<script src="libraries/p5.dom.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+<div id="content">
+	<div id="posyl">
+		<div class="alert alert-info" role="alert">
+			Скромный автор: (Сайтарлы Алексей)
+		</div>
+	</div>
+	<div id="search">
+		<div id="request_input" class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1">Кого ищешь?</span>
+			</div>
+			<input id="request" type="text" class="form-control" placeholder="Фамилия инициалы (через пробел)" aria-describedby="basic-addon1">
+			<div class="input-group-append">
+				<button id="search_button" class="btn btn-outline-secondary" type="button" >Искать</button>
+  			</div>
+		</div>
+		<div id="result" class="empty_response border border-light rounded">
+
+			<div id="empty_response_message">
+				<table style="height: 100%; margin: auto;">
+				<tbody>
+					<tr>
+						<td class="align-middle text-center big_text">Пусто, как и у автора в голове.</td>
+					</tr>
+					<tr>
+						<td class="align-bottom text-center small_text">(Абитуриентов не найдено)</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+#content{
+	max-width: 1000px;
+	margin: auto;
+}
+
+#posyl{
+	text-align: center;
+	font-size: x-large;
+}
+
+#request_input{
+	max-width: 600px;
+	margin: auto;
+}
+
+#result{
+	width: 100%;
+	background: #FAFAFA;
+}
+
+#empty_response_message{
+	height: 100%;
+}
+
+#response_table{
+	width: 100%;
+}
+
+.big_text{
+	font-size: xx-large;
+}
+
+.small_text{
+	font-size: small;
+}
+
+.empty_response{
+	height: 500px;
+}
+.prior_column{
+	width: 30px;
+}
+
+.user_name{
+	width: 150px;
+}
+
+
+td{
+	text-align: center;
+}
+
+a { color: inherit; }
